@@ -1,0 +1,90 @@
+.header{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 3em;
+	background: #181B27;
+	text-align: center;
+	z-index: 1;
+}
+.menu{
+	position: fixed;
+	top: 3em;
+	left: 0px;
+	right: 0px;
+	height: 4em;
+	background: #000;
+	z-index: 1;
+}
+.header .left button{
+	background: unset;
+	color: #eee;
+	margin-top: 1.5em;
+	font-size: 11px;
+	margin-right: 1em
+}
+.header .left button img{
+	position: relative;
+	float: left;
+	width: 11px;
+	margin-right: 0.5em
+}
+.header .left{
+	position: relative;
+	float: left;
+	margin-left: 10%;
+}
+.header .right{
+	position: relative;
+	float: right;
+	margin-right: 10%;
+}
+.header .right button{
+	background: unset;
+	color: #eee;
+	margin-top: 0.8em;
+	font-size: 11px;
+	margin-right: 1em;
+	border: 2px solid #ddd;
+	border-radius: 50%;
+	height: 2.5em;
+	width: 2.5em;
+	text-align: center;
+}
+
+.header .right button img{
+	position: relative;
+	width: 1.2em;
+	
+}
+
+.menu .left{
+	position: relative;
+	float: left;
+	margin-left: 10%;
+}
+.menu .left .logo{
+	position: relative;
+	float: left;
+	width: 10em;
+	margin-top: 1.5em;
+}
+.menu .right{
+	position: relative;
+	float: right;
+	margin-right: 10%;
+	width: 50%;
+}
+.menu .right button{
+	background: unset;
+	color: #eee;
+	margin-top: 1.8em;
+	position: relative;
+	float: left;
+	margin-left: 3em
+}
+.menu .right .selected{
+	color: #C00;
+	font-weight: bold;
+}

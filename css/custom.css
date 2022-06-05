@@ -1,0 +1,12 @@
+.timmer{
+	position: absolute;
+    float: left;
+    width: 5em;
+    background: #000;
+    height:100%
+}
+
+/*img {
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+}*/

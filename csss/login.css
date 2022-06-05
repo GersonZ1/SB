@@ -1,0 +1,89 @@
+.todo_form{
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	background: #777979;
+	font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-size: 81.25%;
+    color: #3b4a53;
+}
+.todo_form .formulario{
+	position: fixed;
+	left: 10%;
+	right: 10%;
+	top: 10%;
+	bottom: 10%;
+	background: #FFF;
+	border-radius: 5px;
+	overflow: auto;
+}
+.todo_form .formulario .intro{
+	position: relative;
+	float: left;
+	width: 100%;
+	padding-top: 10%;
+	text-align: center;
+
+}
+.todo_form .formulario .intro .big{
+	font-weight: bold;
+	font-size:34px;
+}
+.todo_form .formulario .intro .small{
+	color: #4d5a63;
+}
+.todo_form .formulario .itens{
+	position: relative;
+	float: left;
+	height: 2em;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 5em;
+}
+.todo_form .formulario .itens .item{
+	position: relative;
+	float: left;
+	width: 50%;
+}
+.todo_form .formulario .itens .item input,span{
+	position: relative;
+	float: left;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.todo_form .formulario .itens .item span{
+	font-weight: bold;
+}
+.todo_form .formulario .itens .item input{
+	padding: 1.5em;
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	border-radius: 3px;
+
+}
+.todo_form .formulario .btn_sub{
+	text-align: center;
+	width: 100%;
+	margin-left: 0px;
+}
+.todo_form .formulario input[type='submit']{
+	width: 10em;
+	height: 3.5em;
+	margin-top: 3em;
+	margin-left: 5%;
+	background: #CC0000;
+	color: #fff;
+	border-radius: 3px;
+	border: none;
+	font-weight: bold;
+}
+.todo_form .formulario .termos{
+	position: relative;
+	top: 1em;
+}
+.todo_form .formulario .termos a{
+	color: #cc0000;
+	text-decoration: none;
+}

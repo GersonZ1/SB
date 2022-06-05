@@ -1,0 +1,91 @@
+.box{
+	background-color:
+	rgb(255, 255, 255)
+	;
+	border-bottom-left-radius:
+	5px
+	;
+	border-bottom-right-radius:
+	5px
+	;
+	border-top-left-radius:
+	5px
+	;
+	border-top-right-radius:
+	5px
+	;
+	box-shadow:
+	rgba(0, 0, 0, 0.14902) 0px 0px 25px 0px
+	;
+	box-sizing:
+	border-box
+	;
+	color:
+	rgb(109, 109, 109)
+	;
+	display:
+	flex
+	;
+	font-family:
+	'Source Sans Pro', HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif
+	;
+	font-weight:
+	normal
+	;
+	height:
+	231px
+	;
+	line-height:
+	25.888px
+	;
+	margin-bottom:
+	0px
+	;
+	margin-left:
+	0px
+	;
+	margin-right:
+	0px
+	;
+	margin-top:
+	25px
+	;
+	padding-bottom:
+	35px
+	;
+	padding-left:
+	35px
+	;
+	padding-right:
+	35px
+	;
+	padding-top:
+	35px
+	;
+	position:
+	relative
+	;
+	transition-delay:
+	0s, 0s, 0s, 0s
+	;
+	transition-duration:
+	0.3s, 0.3s, 0.3s, 0.3s
+	;
+	transition-property:
+	background, border, border-radius, box-shadow
+	;
+	transition-timing-function:
+	ease, ease, ease, ease
+	;
+	width:
+	716px
+	;
+	word-wrap:
+	break-word
+	;
+
+}
+.body .slides{
+	position: relative;
+	top: 7em;
+}
